@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Pete's Pet Shop</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="row">
+      <div class="col" style="text-align: center;">
+          <button class="btn btn-success btn-lg" type="button" onclick="App.load();">Proceed</button>
+      </div>
+       
+  </div>
+
+
+
+  <div class="row" style="display: none; " id="showpage">
+         
+    <div class="col col-12 col-md-4">
+
+
+    </div>
+    
+    <div class="col col-12 col-md-4">
+      <table class="table">
+          <tr>
+             <img src="https://gateway.pinata.cloud/ipfs/QmVUdLrUc4nFAvrV1sPwyaM7bpq1szRkNCnCS7JuMzXBZ4/" class="img-responsive" >
+          </tr>
+      
+      <tr>
+          <td>
+              Price :
+          </td>
+          <td>
+            0.1 ETH
+          </td>
+
+      </tr>
+      <tr>
+        <td>
+          Contact Address
+        </td>
+        <td>
+          <a href="https://rinkeby.etherscan.io/address/0x6637915bB2671777834719CC561060c7017e8812">0x6637915bB2671777834719CC561060c7017e8812</a>
+        </td>
+      </tr> 
+      
+      
+   
+      
+      <tr style="text-align: center;">
+          <td colspan="2" style="text-align: center;">
+            <button class="btn btn-success btn-lg" style="text-align: center;" onclick="App.mint()" >Mint </button>
+          </td>
+      </tr>
+
+      </table>
+        
+    </div>
+    <div class="col col-12 col-md-4">
+
+
+    </div>
+    
+   
+    
+  </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
