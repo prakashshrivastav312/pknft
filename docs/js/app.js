@@ -64,6 +64,7 @@ App={
 
     $('#meta').html(App.account);
     $('#showpage').show();
+    $('#showpage3').show();
     console.log(App.student.address);
  
   },
